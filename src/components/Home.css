@@ -1,0 +1,76 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fde2e4;
+  color: #620042;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.birthday-title {
+  color: #fa709a;
+  font-size: 36px; /* Adjusted for smaller screens */
+  text-shadow: 2px 2px 4px #ffb6b9;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.music-button {
+  background-color: #620042;
+  color: #ffffff;
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px; /* Adjusted for smaller screens */
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.music-button:hover {
+  background-color: #810058;
+}
+
+.year-button {
+  background-color: #ff61a6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px; /* Adjusted for smaller screens */
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.year-button:hover {
+  transform: scale(1.1);
+  background-color: #ff87b2;
+}
+
+.decorative-image {
+  position: absolute;
+  width: 100px; /* Adjusted for smaller screens */
+  top: 10%;
+  left: 10%;
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .birthday-title {
+    font-size: 48px;
+  }
+
+  .music-button, .year-button {
+    padding: 15px 25px;
+    font-size: 20px;
+  }
+
+  .decorative-image {
+    width: 150px;
+  }
+}

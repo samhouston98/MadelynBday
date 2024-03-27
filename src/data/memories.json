@@ -1,0 +1,10 @@
+{
+    "2020": [
+      { "type": "image", "src": "path/to/image1.jpg" },
+      { "type": "video", "src": "path/to/video1.mp4" }
+    ],
+    "2021": [
+    
+    ]
+  }
+  

@@ -1,0 +1,49 @@
+.year-page-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #e65c54;
+}
+
+.year-title {
+  font-size: 36px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.memory-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.memory-item {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.memory-item:hover {
+  transform: scale(1.05);
+}
+
+.memory-image, .memory-video {
+  width: 100%;
+  max-height: 500px; /* Adjust height as needed */
+  display: block;
+  margin: auto;
+}
