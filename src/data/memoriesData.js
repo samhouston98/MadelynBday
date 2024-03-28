@@ -16,6 +16,12 @@ const memoriesData = {
       { type: "image", src: "/media/2018/2018_3.jpg" },
       { type: "image", src: "/media/2018/2018_4.jpg" },
       { type: "image", src: "/media/2018/2018_5.jpg" },
+      { type: "image", src: "/media/2018/2018_6.jpg" },
+      { type: "image", src: "/media/2018/2018_7.jpg" },
+      { type: "image", src: "/media/2018/2018_8.jpg" },
+      { type: "image", src: "/media/2018/2018_9.jpg" },
+      { type: "image", src: "/media/2018/2018_10.jpg" },
+      { type: "image", src: "/media/2018/2018_11.jpg" },
      
   
       // Add more media for 2020
@@ -26,6 +32,9 @@ const memoriesData = {
       { type: "image", src: "/media/2019/2019_3.jpg" },
       { type: "image", src: "/media/2019/2019_4.jpg" },
       { type: "image", src: "/media/2019/2019_5.jpg" },
+      { type: "image", src: "/media/2019/2019_6.jpg" },
+      { type: "image", src: "/media/2019/2019_7.jpg" },
+      { type: "image", src: "/media/2019/2019_8.jpg" },
      
   
       // Add more media for 2020
@@ -37,6 +46,7 @@ const memoriesData = {
       { type: "image", src: "/media/2020/2020_4.jpg" },
       { type: "image", src: "/media/2020/2020_5.jpg" },
       { type: "image", src: "/media/2020/2020_6.jpg" },
+      { type: "image", src: "/media/2020/2020_7.jpg" },
      
   
       // Add more media for 2020
@@ -51,6 +61,7 @@ const memoriesData = {
       { type: "image", src: "/media/2021/2021_6.jpg" },
       { type: "image", src: "/media/2021/2021_7.jpg" },
       { type: "image", src: "/media/2021/2021_8.jpg" },
+      { type: "image", src: "/media/2021/2021_9.jpg" },
      
   
       // Add more media for 2020
