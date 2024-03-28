@@ -1,22 +1,6 @@
 .year-page-container {
-  padding: 20px;
   text-align: center;
-}
-
-.back-button {
-  margin-bottom: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #ff6f61;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.back-button:hover {
-  background-color: #e65c54;
+  padding: 20px;
 }
 
 .year-title {
@@ -27,23 +11,45 @@
 
 .memory-content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
   gap: 20px;
   padding: 20px;
 }
 
 .memory-item {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.memory-item:hover {
-  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: transparent; /* Set background to transparent */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: auto; /* Adjust height based on content */
+  border: none; /* No border for the media items */
 }
 
 .memory-image, .memory-video {
-  width: 100%;
-  max-height: 500px; /* Adjust height as needed */
-  display: block;
-  margin: auto;
+  max-width: 100%; /* Maximum width is 100% of the container */
+  max-height: 100%; /* Maximum height is 100% of the container */
+  object-fit: contain; /* Ensures content fits without cropping */
+}
+
+@media (max-width: 1024px) {
+  .memory-content {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row for medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .memory-content {
+    grid-template-columns: 1fr; /* 1 item per row for small screens */
+  }
+
+  .memory-item {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .year-title {
+    font-size: 28px; /* Smaller font size for smaller screens */
+  }
 }

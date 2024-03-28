@@ -9,14 +9,14 @@
   position: relative;
   padding: 20px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .birthday-title {
-  color: #fa709a;
-  font-size: 36px; /* Adjusted for smaller screens */
+  margin: 20px 0;
+  font-size: 36px;
+  color: #333;
   text-shadow: 2px 2px 4px #ffb6b9;
-  margin: 20px 10px;
-  text-align: center;
 }
 
 .music-button {
@@ -25,7 +25,7 @@
   margin: 15px;
   padding: 10px 20px;
   border-radius: 20px;
-  font-size: 16px; /* Adjusted for smaller screens */
+  font-size: 16px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s;
@@ -36,29 +36,39 @@
 }
 
 .year-button {
-  background-color: #ff61a6;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
   margin: 10px;
-  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 18px; /* Adjusted for smaller screens */
   transition: transform 0.2s, background-color 0.3s;
 }
 
 .year-button:hover {
   transform: scale(1.1);
-  background-color: #ff87b2;
+  background-color: #e65c54;
 }
 
 .decorative-image {
   position: absolute;
-  width: 100px; /* Adjusted for smaller screens */
+  width: 100px;
   top: 10%;
   left: 10%;
   opacity: 0.9;
 }
+
+.homepage-slideshow {
+  max-width: 300px; /* Set a maximum width for the images */
+  max-height: 200px; /* Set a maximum height for the images */
+  width: auto; /* Allow the width to adjust based on the aspect ratio */
+  height: auto; /* Allow the height to adjust based on the aspect ratio */
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
 
 @media (min-width: 768px) {
   .birthday-title {
