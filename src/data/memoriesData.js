@@ -11,12 +11,12 @@ const memoriesData = {
       // Add more media for 2020
     ],
     "2018": [
-      { type: "image", src: "/media/2018/2018_1.jpg" },
-      { type: "image", src: "/media/2018/2018_2.jpg" },
-      { type: "image", src: "/media/2018/2018_3.jpg" },
-      { type: "image", src: "/media/2018/2018_4.jpg" },
-      { type: "image", src: "/media/2018/2018_5.jpg" },
-      { type: "image", src: "/media/2018/2018_6.jpg" },
+        { type: "image", src: "/media/2018/2018_2.jpg" },
+        { type: "image", src: "/media/2018/2018_3.jpg" },
+        { type: "image", src: "/media/2018/2018_4.jpg" },
+        { type: "image", src: "/media/2018/2018_5.jpg" },
+        { type: "image", src: "/media/2018/2018_6.jpg" },
+        { type: "image", src: "/media/2018/2018_1.jpg" },
       { type: "image", src: "/media/2018/2018_7.jpg" },
       { type: "image", src: "/media/2018/2018_8.jpg" },
       { type: "image", src: "/media/2018/2018_9.jpg" },
